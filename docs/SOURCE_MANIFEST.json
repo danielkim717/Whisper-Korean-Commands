@@ -1,0 +1,18 @@
+{
+  "original_notebook_sha256": "d4c330a5fe41af3fc51df00d28ba0e151b19d695df33da40bc6620f8d29c9806",
+  "reference_presentation_sha256": "ac37ed07926265f816d90388662a6027bb1a6e9f2264a08aeb82b95def5d63b7",
+  "presentation_uploaded": false,
+  "original_notebook_cell_count": 30,
+  "original_cell_sources_preserved": true,
+  "original_outputs_published": false,
+  "core_extraction": {
+    "RawAudioDataset": 9,
+    "create_metadata": 10,
+    "IntegratedWhisperFFT": 10,
+    "extract_embeddings_from_loader": 14,
+    "build_prototypes": 14,
+    "ModelWithUnknownRaw": 14
+  },
+  "cell_index_base": 0,
+  "full_training_rerun": false
+}

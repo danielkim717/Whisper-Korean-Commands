@@ -1,0 +1,11 @@
+# 원본은 패키지 버전을 고정하지 않았습니다. 과거 결과의 완전 일치를 보장하지 않습니다.
+openai-whisper
+torch
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+librosa
+jupyterlab

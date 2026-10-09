@@ -1,0 +1,79 @@
+{
+  "source": "saved outputs of supplied ML_Project.ipynb; not a new training run",
+  "training_samples_logged": 99,
+  "known_test_samples_logged": 55,
+  "known_test_samples_per_class": 5,
+  "model": "Whisper small encoder + mean pooling + 768-256-11 MLP",
+  "epochs_logged": 8,
+  "learning_rate": 1e-05,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.3852,
+      "test_accuracy_percent": 18.18
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.2601,
+      "test_accuracy_percent": 47.27
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.0666,
+      "test_accuracy_percent": 72.73
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.9318,
+      "test_accuracy_percent": 92.73
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6618,
+      "test_accuracy_percent": 96.36
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.3819,
+      "test_accuracy_percent": 96.36
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.0592,
+      "test_accuracy_percent": 100.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.8084,
+      "test_accuracy_percent": 100.0
+    }
+  ],
+  "known_command_final_correct": 55,
+  "known_command_final_accuracy": 1.0,
+  "unknown_evaluation_notebook": {
+    "known_samples": 55,
+    "correct_derived_from_class_report": 46,
+    "rejected_known_derived": 9,
+    "accuracy": 0.8363636363636363,
+    "unknown_ground_truth_samples": 0,
+    "same_execution_provenance_unconfirmed": true
+  },
+  "distance_analysis_train_percentiles": {
+    "90": 0.0667,
+    "95": 0.0794,
+    "97": 0.0949,
+    "99": 0.1247
+  },
+  "legacy_export_threshold": 0.125,
+  "legacy_export_size_bytes_logged": 1033942969,
+  "presentation_claims": {
+    "recordings_overview": 440,
+    "speakers_overview": 8,
+    "train_speakers": 7,
+    "test_speakers": 1,
+    "epochs": 10,
+    "unknown_matrix_known_correct_visually_counted": 52,
+    "unknown_matrix_known_rejected_visually_counted": 3
+  },
+  "warning": "Presentation and notebook outputs differ. No audio, trained weights or app source was supplied."
+}
